@@ -508,8 +508,8 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 #site-header-inner { position: relative; }
 #site-header .wrap-inner { padding-top: 28.5px; padding-bottom: 28.5px;  -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-.menu-has-search #site-header #main-nav { right: 28px; }
-.menu-has-search #site-header #header-search  { display: block; }
+. #site-header #main-nav { right: 28px; }
+. #site-header #header-search  { display: block; }
 
 #site-header #header-search { position: absolute; right: 15px; top: 50%; z-index: 10; display: none; -webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%);  }
 
@@ -578,13 +578,13 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 
 /* Style 1 */
 .header-style-1 #site-header #main-nav { position: absolute; right: 0px; top: 50%; z-index: 99; -webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%); }
-.header-style-1.menu-has-search #site-header #main-nav { right: 44px; }
+.header-style-1. #site-header #main-nav { right: 44px; }
 .header-style-1 #site-header #main-nav > ul > li.current-menu-item > a,
 .header-style-1 #site-header #main-nav > ul > li:hover > a { color: #ffc30c; }
  
 /* Style 2 */
 .header-style-2 #site-header #main-nav { position: absolute; right: 0px; top: 50%; z-index: 99; -webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%); }
-.header-style-2.menu-has-search #site-header #main-nav { right: 44px; }
+.header-style-2. #site-header #main-nav { right: 44px; }
 .header-style-2 #site-logo {margin-left: 6px; }
 .header-style-2 #site-header .wrap-inner { padding-top: 31px; padding-bottom: 30px; }
 .header-style-2 #main-nav > ul > li > a,
@@ -598,7 +598,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 .header-style-3 #site-header { background-color: rgba(0,0,0,0.2); box-shadow: none; }
 .header-style-3 #site-header #site-logo { margin-left: 2px; }
 .header-style-3 #site-header #main-nav { position: absolute; right: 0px; top: 50%; z-index: 99; -webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%); }
-.header-style-3.menu-has-search #site-header #main-nav { right: 44px; }
+.header-style-3. #site-header #main-nav { right: 44px; }
 
 .header-style-3 #site-header .header-search-icon,
 .header-style-3 #site-header #main-nav > ul > li > a { color: #fff; }
@@ -1000,7 +1000,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 	#site-header .mobile-button { display: block; }
 
 	#main-nav,
-	.menu-has-search #site-header #header-search ,
+	. #site-header #header-search ,
 	.menu-has-cart #site-header .nav-top-cart-wrapper,
 	#top-bar .top-bar-content,
 	.switcher-container,
